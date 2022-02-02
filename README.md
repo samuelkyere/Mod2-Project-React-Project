@@ -1,70 +1,21 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+E-COMMERCE REACT PROJECT
+   As at 2019, there were 2.06 million Africans living in the New York,1.202 million, New York, some have access to their natives products at special places while others do not. And yet they all  need or use products from their countries.
+   At the onset of the COVID-19 pandemic, it has  become  very unsafe to go to crowded places like supermarkets and  other shops.
+   On the otherhand the E-commerce business was/is booming and very successful in the pandemic, but there was one issue that still needed to be addressed.
+   This issue was that the other E-commerce websites that sold some of these native products sold them at a very expensive prices
+   Sam Boat Ventures came as a solution to these problems, to provide our valued customers with their products and also a immigrants or people with different demographic backgrounds
+ Sam Boat Ventures seeks to solve this by providing our valued customers with a wide range of products with different prices to meet their needs and wants.
+ 
+  React Was Used For this Project 
+  I used two API's and they are:
+  https://mod2-countdown.herokuapp.com/?search_term=${searchHistory}
+  http://api.timezonedb.com/v2.1/get-time-zone?key=VF4D9XZWJ4CT&format=json&by=zone&zone=America/New_York
+  I used Axios to fetch my API in App.js
+  I made one parent component and eight children components in it 
+  I used useReducer and useContext hooks to pass down State in the ProductForm.js
+  I also used react router to make routes in APP.js, and also made the links in Nav.js
+  
+  Plans For The Future
+  Develop an API that better helps me the purpose of the displaying the products from different demographics
+  Develop a cart 
+  Add some animations and more design to the website.
